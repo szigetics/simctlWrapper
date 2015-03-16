@@ -1,5 +1,5 @@
 # simctlWrapper
-Wrapper for Xcode's simctl tool which builds into your Finder app. It can be used for installing and launching apps in the iOS Simulator. Supports launching Watch / WatchKit Apps as well (requires at least version 6.2 of Xcode).
+Wrapper for Xcode's simctl tool which builds into your Finder app as a context sensitive menu. It can be used for installing and launching apps in the iOS Simulator. Supports launching Watch / WatchKit Apps as well (requires at least version 6.2 of Xcode).
 
 # Installation Process
 Just simply copy and paste simctlWrapper into your ~/Library/Services folder. ( So the whole path on your Mac should look something like this : /Users/<userName>/Library/Services/simctlWrapper.workflow )
