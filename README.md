@@ -13,4 +13,5 @@ Just simply copy and paste simctlWrapper into your ~/Library/Services folder. ( 
 
 # Known issues, improvement ideas : 
 1. Launching Apple Watch notification is not yet supported
-2. Error handling is... Khm... "Not too strong" yet... :)
+2. There is a known bug on Apple's side related to the Simulator which results in that you can't Install App with WatchKit Extension on iOS 8.1 Simulator with Xcode 6.2
+3. Error handling is... Khm... "Not too strong" yet... :)
