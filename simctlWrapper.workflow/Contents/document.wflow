@@ -1274,7 +1274,12 @@ echo "Erase and Launch simulator : erasing simulator content starting" &gt;&gt; 
 xcrun simctl erase $DEVICE_ID
 echo "Erase and Launch simulator : erasing simulator content finished" &gt;&gt; /tmp/simctlwrapper.log
 
-open -n /Applications/Xcode.app/Contents/Developer/Applications/iOS\ Simulator.app --args -CurrentDeviceUDID $DEVICE_ID</string>
+if [ -d "/Applications/Xcode.app" ]
+then
+      open -n /Applications/Xcode.app/Contents/Developer/Applications/iOS\ Simulator.app --args -CurrentDeviceUDID $DEVICE_ID
+else
+      open -n /Applications/Xcode-beta.app/Contents/Developer/Applications/iOS\ Simulator.app --args -CurrentDeviceUDID $DEVICE_ID
+fi</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
