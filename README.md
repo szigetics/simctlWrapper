@@ -7,9 +7,15 @@ Just simply copy and paste simctlWrapper into your ~/Library/Services folder. ( 
 # Usage
 0. Install Xcode on your machine and launch it
 1. Create/get a simulator build for an iOS app (built for i386 /+ x86_64 architectures). (It's extension should be ".app")
-2. Right click on the ".app" file in Finder.
-3. Click on simctlWrapper
-4. Go through the simple process
+2. Right click on the ".app" file in Finder and click on simctlWrapper
+![Right click on app](https://user-images.githubusercontent.com/7099208/98666710-adc8bd00-234d-11eb-9f0b-f1ef8a2c6127.png)
+3. Select the device which you would like to run the app on : 
+![Select the device](https://user-images.githubusercontent.com/7099208/98666761-c6d16e00-234d-11eb-9559-edd577091ff5.png)
+4. Select the app which you would like to start (note : the watchkitextension isn’t a real selectable option)
+![Select the app](https://user-images.githubusercontent.com/7099208/98666819-d81a7a80-234d-11eb-9eed-1c72f186b97b.png)
+
+=>
+The selected app starts up in the selected simulator
 
 # Known issues, improvement ideas : 
 1. Launching Apple Watch notification is not yet supported
